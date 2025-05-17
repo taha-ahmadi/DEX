@@ -1,6 +1,12 @@
 {
+  "scripts": {
+    "test": "npx hardhat test"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "hardhat": "^2.24.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3"
   }
 }
